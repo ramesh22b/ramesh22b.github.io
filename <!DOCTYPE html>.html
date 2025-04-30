@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ramesh Bonala - Portfolio">
+    <title>Ramesh Bonala - Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills-section">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications-section">Certifications</a></li>
+        </ul>
+        <div id="underline"></div>
+        <div class="social-links">
+            <a href="https://github.com/ramesh22b" target="_blank" aria-label="GitHub" data-tooltip="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ramesh-bonala2024/" target="_blank" aria-label="LinkedIn" data-tooltip="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:ramesh.616h@gmail.com" aria-label="Email" data-tooltip="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </nav>
+
+    <div id="particles-js"></div>
+    <canvas id="interactiveCanvas"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.1/lottie.min.js"></script>
+    <script src="script.js"></script>
+
+    <section id="hero">
+        <div class="profile-pic">
+            <img src="images/ramesh-profile.gif" alt="Ramesh Bonala Portrait">
+        </div>
+        <h1 class="animated-title" id="typing-text">Hi, I Am Ramesh Bonala</h1>
+        <p class="subtitle">Turning Data into Actionable Insights 📊</p>
+        <a href="Ramesh_Data_Analyst.pdf" download class="resume-btn">Download Resume</a>
+    </section>
+
+    <section id="about-me">
+        <h2 class="section-title">Get to Know Me</h2>
+        <div class="about-me-content">
+            <div class="about-me-text">
+                <div id="hi-animation">
+                    <img src="images/ramesh-profile.gif" alt="Hi Animation">
+                </div>
+                <p>
+                    I am Ramesh Bonala, a passionate and detail-oriented Data Analyst with a Master’s in Advanced Data Analytics from the University of North Texas. My work focuses on building data pipelines, dashboards, and transforming raw datasets into business intelligence using tools like Python, SQL, Power BI, Tableau, AWS, and GCP.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2 class="section-title">My Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <img src="images/unt-logo.png" alt="UNT Logo" class="logo-img">
+                </div>
+                <div class="timeline-content">
+                    <h3>University of North Texas</h3>
+                    <p class="timeline-date">2022 - 2024</p>
+                    <p class="timeline-description">Master’s in Advanced Data Analytics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills-section">
+        <h2 class="section-title">My Skills</h2>
+        <div class="chart-container">
+            <canvas id="skillsRadarChart"></canvas>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3 class="skill-title">Programming</h3>
+                <p class="skill-description">Skilled in developing scripts for analysis and automation using modern languages and libraries.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Pandas</span>
+                    <span class="skill-tag">NumPy</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3 class="skill-title">Visualization</h3>
+                <p class="skill-description">Experience in presenting data with interactive visual tools and reports.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Tableau</span>
+                    <span class="skill-tag">Power BI</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3 class="skill-title">Cloud & Data Engineering</h3>
+                <p class="skill-description">Experienced in deploying scalable pipelines and managing data in cloud environments.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">AWS</span>
+                    <span class="skill-tag">GCP</span>
+                    <span class="skill-tag">Redshift</span>
+                    <span class="skill-tag">Snowflake</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3 class="skill-title">Machine Learning</h3>
+                <p class="skill-description">Experience building predictive models using popular libraries and frameworks.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Scikit-learn</span>
+                    <span class="skill-tag">TensorFlow</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3 class="project-title">Cloud-Based ETL Pipelines</h3>
+                <p class="project-description">Built real-time and batch ETL pipelines using Python, AWS Redshift, and Kafka for Mergen IT.</p>
+            </div>
+            <div class="project-card">
+                <h3 class="project-title">Student Analytics Dashboards</h3>
+                <p class="project-description">Developed Power BI dashboards for UNT faculty to analyze and visualize student performance data.</p>
+            </div>
+            <div class="project-card">
+                <h3 class="project-title">Autonomous Vehicle Data Processing</h3>
+                <p class="project-description">Maintained high-frequency data pipelines for LiDAR and Radar data analysis at NVIDIA.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications-section">
+        <h2 class="section-title">My Certifications</h2>
+        <div class="certifications-container">
+            <div class="certification-item">
+                <h3 class="certification-title">IBM Certified Data Engineer</h3>
+                <p class="certification-description">Credential from IBM focused on data pipelines, databases, and cloud analytics.</p>
+            </div>
+            <div class="certification-item">
+                <h3 class="certification-title">Google Data Analytics Certificate</h3>
+                <p class="certification-description">Foundations of data analysis, cleaning, and visualization using Google tools.</p>
+            </div>
+            <div class="certification-item">
+                <h3 class="certification-title">Microsoft Power BI Data Analyst</h3>
+                <p class="certification-description">Professional certificate in building, maintaining, and publishing Power BI reports.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Ramesh Bonala - All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
