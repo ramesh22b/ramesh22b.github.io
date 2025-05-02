@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ramesh Bonala - Data Analyst Portfolio">
+    <title>Ramesh Bonala - Data Analyst Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills-section">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications-section">Certifications</a></li>
+        </ul>
+        <div id="underline"></div>
+        <!-- Social Links -->
+        <div class="social-links">
+          <a href="https://github.com/ramesh22b/Projects_Ramesh" target="_blank" aria-label="GitHub" data-tooltip="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/yourlinkedin/" target="_blank" aria-label="LinkedIn" data-tooltip="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:ramesh.616h@gmail.com" aria-label="Email" data-tooltip="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </nav>
+
+    <div id="particles-js"></div>
+    <canvas id="interactiveCanvas"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.1/lottie.min.js"></script>
+    <script src="script.js"></script>
+
+<!-- Hero Section -->
+<section id="hero">
+    <div class="profile-pic">
+        <img src="Myimage.png" alt="Ramesh Bonala Portrait">
+    </div>
+    <h1 class="animated-title" id="typing-text" aria-label="Hi, I Am Ramesh Bonala..."></h1>
+    <p class="subtitle">Transforming Data into Strategic Decisions 💡</p>
+    <a href="Ramesh_Data_Analyst.pdf" download class="resume-btn">Download Resume</a>
+</section>
+
+<!-- About Me Section -->
+<section id="about-me">
+    <h2 class="section-title">Get to Know Me</h2>
+    <div class="about-me-content">
+      <div class="about-me-text">
+        <div id="hi-animation">
+            <img src="images/bit-pranee-unscreen.gif" alt="Hi Animation">
+        </div>
+        <p>
+          Data Analyst with expertise in data processing, cloud technologies, and data visualization. I leverage technical skills in Python, SQL, and various data platforms to analyze complex datasets and provide actionable insights. Currently working at Mergen IT while continuously expanding my knowledge in machine learning and advanced analytics.
+        </p>    
+        </div>
+    </div>
+  </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2 class="section-title">My Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <img src="Images/UNT.png" alt="UNT Logo" class="logo-img">
+                </div>
+                <div class="timeline-content">
+                    <h3>University of North Texas</h3>
+                    <p class="timeline-date">2023 - 2024</p>
+                    <p class="timeline-description">Master's in Advanced Data Analytics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills-section">
+        <h2 class="section-title">My Skills</h2>
+        <div class="chart-container">
+            <canvas id="skillsRadarChart"></canvas>
+        </div>
+
+    <div class="skills-grid">
+      <!-- Database Card -->
+      <div class="skill-card">
+        <h3 class="skill-title">Databases & Storage</h3>
+        <p class="skill-description">Proficient in managing and querying relational and NoSQL databases for efficient data storage and retrieval.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">SQL Server</span>
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">AWS Redshift</span>
+          <span class="skill-tag">Snowflake</span>
+          <span class="skill-tag">MongoDB</span>
+        </div>
+      </div>
+  
+      <!-- Data Visualization Card -->
+      <div class="skill-card">
+        <h3 class="skill-title">Data Visualization</h3>
+        <p class="skill-description">Experienced in creating interactive and insightful visualizations to communicate data-driven insights.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Power BI</span>
+          <span class="skill-tag">Tableau</span>
+        </div>
+      </div>
+  
+      <!-- Cloud Computing Card -->
+      <div class="skill-card">
+        <h3 class="skill-title">Cloud Computing</h3>
+        <p class="skill-description">Skilled in designing and implementing cloud-based solutions for data processing and storage.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">AWS</span>
+          <span class="skill-tag">GCP</span>
+          <span class="skill-tag">Kubernetes</span>
+        </div>
+      </div>
+  
+      <!-- Machine Learning Card -->
+      <div class="skill-card">
+        <h3 class="skill-title">Machine Learning & Analytics</h3>
+        <p class="skill-description">Proficient in building and deploying machine learning models for predictive analytics.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Scikit-Learn</span>
+          <span class="skill-tag">TensorFlow</span>
+          <span class="skill-tag">Pandas</span>
+          <span class="skill-tag">NumPy</span>
+          <span class="skill-tag">CNNs</span>
+          <span class="skill-tag">RNN</span>
+          <span class="skill-tag">LSTMs</span>
+        </div>
+      </div>
+      
+      <!-- Programming Card -->
+      <div class="skill-card">
+        <h3 class="skill-title">Programming & Tools</h3>
+        <p class="skill-description">Expertise in data processing and workflow automation.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">Jenkins</span>
+          <span class="skill-tag">Postman</span>
+          <span class="skill-tag">Jira</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ml">Machine Learning</button>
+            <button class="filter-btn" data-filter="etl">ETL Pipelines</button>
+            <button class="filter-btn" data-filter="viz">Visualization</button>
+        </div>
+        <div class="project-grid"></div>
+    </section>
+
+<!-- Certifications Section -->
+<section id="certifications-section">
+    <h2 class="section-title">My Certifications</h2>
+    <div class="certifications-container">
+        <!-- IBM Certification -->
+        <div class="certification-item">
+            <img src="Images/IBM.png" alt="IBM Logo" class="certification-logo">
+            <h3 class="certification-title">IBM Certified Data Engineer</h3>
+            <p class="certification-description">
+                Certification in data engineering principles and practices.
+            </p>
+        </div>
+
+        <!-- Google Certification -->
+        <div class="certification-item">
+            <img src="Images/Google.png" alt="Google Logo" class="certification-logo">
+            <h3 class="certification-title">Google Data Analytics</h3>
+            <p class="certification-description">
+                Professional certification in data analytics using Google tools.
+            </p>
+        </div>
+
+        <!-- Microsoft Certification -->
+        <div class="certification-item">
+            <img src="Images/Microsoft.png" alt="Microsoft Logo" class="certification-logo">
+            <h3 class="certification-title">Microsoft Power BI Data Analyst</h3>
+            <p class="certification-description">
+                Certification in data visualization and reporting using Power BI.
+            </p>
+        </div>
+    </div>
+</section>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Ramesh Bonala - All rights reserved.</p>
+    </footer>
+    
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
