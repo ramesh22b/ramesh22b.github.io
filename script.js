@@ -51,9 +51,27 @@ window.addEventListener("load", () => {
 
 // ==================== Projects Data ====================
 
-/*
 const projects = [
   {
+    title: "Traffic Accidents Prediction",
+    category: "ml",
+    image: "traffic-accident.jpg",
+    description: "Machine learning project analyzing and predicting traffic accidents using Python, pandas, and scikit-learn. Performed data cleaning, exploratory analysis, and built predictive models.",
+    skills: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "scikit-learn", "Data Cleaning", "EDA"],
+    outcome: "Accident Prediction Model",
+    github: "https://github.com/ramesh22b/Projects_Ramesh/tree/main/Traffic_Accidents_Prediction"
+  },
+  {
+    title: "Data Analysis Projects",
+    category: "viz",
+    image: "data-analysis.jpg",
+    description: "Collection of data analysis projects exploring different datasets, performing cleaning and transformation, and extracting actionable insights.",
+    skills: ["Python", "Pandas", "NumPy", "Data Cleaning", "Data Visualization", "Statistical Analysis"],
+    outcome: "Multiple Analysis Projects",
+    github: "https://github.com/ramesh22b/Projects_Ramesh"
+  }
+];
+  /*{
     title: "Data Processing Workflow Optimization",
     category: "etl",
     image: "data-pipeline.jpg",
@@ -100,7 +118,6 @@ const projects = [
   }
   */
   
-];
 
 
 // ==================== Project Filtering ====================
@@ -132,7 +149,7 @@ function filterProjects(filter) {
 */
 
 // ==================== Generate Project Cards ====================
-/*
+
 function generateProjectCards(){
   const projectGrid = document.querySelector('.project-grid');
   if (projectGrid) {
@@ -170,7 +187,7 @@ function generateProjectCards(){
     });
   }
 }
-*/
+
 
 // ==================== Typing Animation ====================
 document.addEventListener("DOMContentLoaded", function() {
