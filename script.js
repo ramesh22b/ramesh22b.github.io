@@ -55,7 +55,7 @@ const projects = [
   {
     title: "Traffic Accidents Prediction",
     category: "ml",
-    image: "traffic-accident.jpg",
+    image: "Images/Trafficaccidents.png",
     description: "Machine learning project analyzing and predicting traffic accidents using Python, pandas, and scikit-learn. Performed data cleaning, exploratory analysis, and built predictive models.",
     skills: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "scikit-learn", "Data Cleaning", "EDA"],
     outcome: "Accident Prediction Model",
