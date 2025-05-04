@@ -50,6 +50,8 @@ window.addEventListener("load", () => {
 });
 
 // ==================== Projects Data ====================
+
+/*
 const projects = [
   {
     title: "Data Processing Workflow Optimization",
@@ -96,9 +98,13 @@ const projects = [
     outcome: "Enhanced Student Learning",
     github: "#"
   }
+  */
+  
 ];
 
+
 // ==================== Project Filtering ====================
+/*
 function initializeFilters() {
   const filterButtons = document.querySelectorAll('.filter-btn');
   
@@ -123,8 +129,10 @@ function filterProjects(filter) {
     card.style.display = shouldShow ? 'block' : 'none';
   });
 }
+*/
 
 // ==================== Generate Project Cards ====================
+/*
 function generateProjectCards(){
   const projectGrid = document.querySelector('.project-grid');
   if (projectGrid) {
@@ -162,6 +170,7 @@ function generateProjectCards(){
     });
   }
 }
+*/
 
 // ==================== Typing Animation ====================
 document.addEventListener("DOMContentLoaded", function() {
