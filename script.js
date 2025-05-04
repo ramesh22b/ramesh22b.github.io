@@ -63,17 +63,6 @@ const projects = [
     /*github: "https://github.com/ramesh22b/Projects_Ramesh/tree/Traffic_Accidents_Prediction"*/
     /*github: "https://github.com/ramesh22b/Projects_Ramesh/tree/main/Traffic_Accidents_Prediction"*/
   },
- /*
-  {
-    title: "Data Analysis Projects",
-    category: "viz",
-    image: "data-analysis.jpg",
-    description: "Collection of data analysis projects exploring different datasets, performing cleaning and transformation, and extracting actionable insights.",
-    skills: ["Python", "Pandas", "NumPy", "Data Cleaning", "Data Visualization", "Statistical Analysis"],
-    outcome: "Multiple Analysis Projects",
-    github: "https://github.com/ramesh22b/Projects_Ramesh"
-  }
-  */
 ];
   /*{
     title: "Data Processing Workflow Optimization",
