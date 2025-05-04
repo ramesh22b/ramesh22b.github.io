@@ -148,8 +148,6 @@ function filterProjects(filter) {
 }
 */
 
-// ==================== Generate Project Cards ====================
-
 function generateProjectCards(){
   const projectGrid = document.querySelector('.project-grid');
   if (projectGrid) {
@@ -188,6 +186,59 @@ function generateProjectCards(){
   }
 }
 
+// ==================== Initialize Everything ====================
+document.addEventListener('DOMContentLoaded', () => {
+  // Initialize other components
+  generateProjectCards(); // Add this line to generate your projects
+  
+  // Rest of your initialization code...
+  initializeFilters();
+  
+  // Initialize Particles.js
+  particlesJS('particles-js', {
+    // ... your existing particles config
+  });
+});
+// ==================== Generate Project Cards ====================
+/*
+function generateProjectCards(){
+  const projectGrid = document.querySelector('.project-grid');
+  if (projectGrid) {
+    projects.forEach(project => {
+      const card = document.createElement('div');
+      card.className = 'project-card';
+      card.dataset.category = project.category;
+
+      card.innerHTML = `
+      <div class="card-header">
+          <div class="project-image">
+              <img src="images/${project.image}" alt="${project.title}" 
+                  onerror="this.src='images/placeholder.png'">
+          </div>
+      </div>
+      <div class="card-body">
+          <h3>${project.title}</h3>
+          <div class="project-skills">
+              ${project.skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
+          </div>
+          <p class="project-description">${project.description}</p>
+          <div class="project-outcome">
+              <i class="fas fa-trophy"></i>
+              <span>${project.outcome}</span>
+          </div>
+      </div>
+      <div class="card-footer">
+          <a href="${project.github}" target="_blank" class="github-link">
+              <i class="fab fa-github"></i> View Code
+          </a>
+      </div>
+      `;
+      
+      projectGrid.appendChild(card);
+    });
+  }
+}
+*/
 
 // ==================== Typing Animation ====================
 document.addEventListener("DOMContentLoaded", function() {
