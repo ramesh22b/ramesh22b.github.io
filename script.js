@@ -142,6 +142,7 @@ function filterProjects(filter) {
 function generateProjectCards(){
   const projectGrid = document.querySelector('.project-grid');
   if (projectGrid) {
+    projectGrid.innerHTML = ''; // Clear existing cards
     projects.forEach(project => {
       const card = document.createElement('div');
       card.className = 'project-card';
@@ -171,7 +172,7 @@ function generateProjectCards(){
           </a>
       </div>
       `;
-      
+
       projectGrid.appendChild(card);
     });
   }
