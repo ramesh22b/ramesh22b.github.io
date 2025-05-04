@@ -125,7 +125,6 @@ const projects = [
 
 
 // ==================== Project Filtering ====================
-/*
 function initializeFilters() {
   const filterButtons = document.querySelectorAll('.filter-btn');
   
@@ -150,7 +149,6 @@ function filterProjects(filter) {
     card.style.display = shouldShow ? 'block' : 'none';
   });
 }
-*/
 
 function generateProjectCards(){
   const projectGrid = document.querySelector('.project-grid');
