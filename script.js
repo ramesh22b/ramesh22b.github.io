@@ -199,6 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // ... your existing particles config
   });
 });
+
 // ==================== Generate Project Cards ====================
 /*
 function generateProjectCards(){
