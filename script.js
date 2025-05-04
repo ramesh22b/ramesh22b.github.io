@@ -59,8 +59,10 @@ const projects = [
     description: "Machine learning project analyzing and predicting traffic accidents using Python, pandas, and scikit-learn. Performed data cleaning, exploratory analysis, and built predictive models.",
     skills: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "scikit-learn", "Data Cleaning", "EDA"],
     outcome: "Accident Prediction Model",
-    github: "https://github.com/ramesh22b/Projects_Ramesh/tree/main/Traffic_Accidents_Prediction"
+    github: "https://github.com/ramesh22b/Projects_Ramesh/tree/Traffic_Accidents_Prediction"
+    /*github: "https://github.com/ramesh22b/Projects_Ramesh/tree/main/Traffic_Accidents_Prediction"*/
   },
+ /*
   {
     title: "Data Analysis Projects",
     category: "viz",
@@ -70,6 +72,7 @@ const projects = [
     outcome: "Multiple Analysis Projects",
     github: "https://github.com/ramesh22b/Projects_Ramesh"
   }
+  */
 ];
   /*{
     title: "Data Processing Workflow Optimization",
