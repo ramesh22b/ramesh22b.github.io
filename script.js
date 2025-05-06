@@ -160,8 +160,8 @@ function generateProjectCards(){
       card.innerHTML = `
       <div class="card-header">
           <div class="project-image">
-              <img src="images/${project.image}" alt="${project.title}" 
-                  onerror="this.src='images/placeholder.png'">
+              <img src="Images/${project.image}" alt="${project.title}" 
+                  onerror="this.src='Images/placeholder.png'">
           </div>
       </div>
       <div class="card-body">
