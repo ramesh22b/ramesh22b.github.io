@@ -159,8 +159,8 @@ function generateProjectCards(){
 
       card.innerHTML = `
       <div class="card-header">
-          <div class="project-image">
-              <img src="Images/${project.image}" alt="${project.title}" 
+          <div class="project-Image">
+              <img src="Images/${project.Image}" alt="${project.title}" 
                   onerror="this.src='Images/placeholder.png'">
           </div>
       </div>
