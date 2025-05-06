@@ -73,7 +73,6 @@ const projects = [
     github: "https://github.com/ramesh22b/Projects_Ramesh/tree/main/Iris_Flower_Classification"
   },
 ];
-];
   /*{
     title: "Data Processing Workflow Optimization",
     category: "etl",
