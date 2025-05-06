@@ -63,6 +63,16 @@ const projects = [
     github: "https://github.com/ramesh22b/Projects_Ramesh/tree/Traffic_Accidents_Prediction"
     /*github: "https://github.com/ramesh22b/Projects_Ramesh/tree/main/Traffic_Accidents_Prediction"*/
   },
+  {
+    title: "Iris Flower Classification",
+    category: "ml",
+    image: "IrisFlower.png", // You might want to add a relevant image
+    description: "Implemented a Logistic Regression model to classify Iris flower species (Setosa, Versicolor, Virginica) based on sepal and petal measurements using Python and scikit-learn. Included data visualization, preprocessing, model training, and evaluation.",
+    skills: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "scikit-learn", "Logistic Regression", "Data Visualization"],
+    outcome: "Iris Species Classification Model",
+    github: "https://github.com/ramesh22b/Projects_Ramesh/tree/main/Iris_Flower_Classification"
+  },
+];
 ];
   /*{
     title: "Data Processing Workflow Optimization",
