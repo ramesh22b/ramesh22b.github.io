@@ -55,7 +55,7 @@ const projects = [
   {
     title: "Traffic Accidents Prediction",
     category: "ml",
-    image: "Images/Trafficaccidents.png",
+    image: "images/Trafficaccidents.png",
     description: "Machine learning project analyzing and predicting traffic accidents using Python, pandas, and scikit-learn. Performed data cleaning, exploratory analysis, and built predictive models.",
     skills: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "scikit-learn", "Data Cleaning", "EDA"],
     outcome: "Accident Prediction Model",
@@ -66,7 +66,7 @@ const projects = [
   {
     title: "Iris Flower Classification",
     category: "ml",
-    image: "Images/IrisFlower.png", // You might want to add a relevant image
+    image: "images/IrisFlower.png", // You might want to add a relevant image
     description: "Implemented a Logistic Regression model to classify Iris flower species (Setosa, Versicolor, Virginica) based on sepal and petal measurements using Python and scikit-learn. Included data visualization, preprocessing, model training, and evaluation.",
     skills: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "scikit-learn", "Logistic Regression", "Data Visualization"],
     outcome: "Iris Species Classification Model",
